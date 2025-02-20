@@ -4,7 +4,7 @@
 
 [project]
 name = "vscode-go-debug-adapter-feedstock"
-version = "3.45.1"
+version = "3.45.4"
 description = "Pixi configuration for conda-forge/vscode-go-debug-adapter-feedstock"
 authors = ["@conda-forge/vscode-go-debug-adapter"]
 channels = ["conda-forge"]
@@ -19,12 +19,12 @@ python = "3.12.*"
 inspect-all = "inspect_artifacts --all-packages"
 build = "conda-build build recipe"
 debug = "conda-build debug recipe"
-"build-linux_64_nodejs20" = "conda-build build recipe -m .ci_support/linux_64_nodejs20.yaml --suppress-variables --clobber-file .ci_support/clobber_linux_64_nodejs20.yaml"
-"debug-linux_64_nodejs20" = "conda-build debug recipe -m .ci_support/linux_64_nodejs20.yaml"
-"inspect-linux_64_nodejs20" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs20.yaml"
 "build-linux_64_nodejs22" = "conda-build build recipe -m .ci_support/linux_64_nodejs22.yaml --suppress-variables --clobber-file .ci_support/clobber_linux_64_nodejs22.yaml"
 "debug-linux_64_nodejs22" = "conda-build debug recipe -m .ci_support/linux_64_nodejs22.yaml"
 "inspect-linux_64_nodejs22" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs22.yaml"
+"build-linux_64_nodejs20" = "conda-build build recipe -m .ci_support/linux_64_nodejs20.yaml --suppress-variables --clobber-file .ci_support/clobber_linux_64_nodejs20.yaml"
+"debug-linux_64_nodejs20" = "conda-build debug recipe -m .ci_support/linux_64_nodejs20.yaml"
+"inspect-linux_64_nodejs20" = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_nodejs20.yaml"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
