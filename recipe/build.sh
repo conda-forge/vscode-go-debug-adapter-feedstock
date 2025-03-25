@@ -13,7 +13,7 @@ npm install -ddd \
     --global \
     --build-from-source \
     --install-links \
-    go-${PKG_VERSION}.tgz
+    go-*.tgz
 
 # Create license report for dependencies
 pnpm install
