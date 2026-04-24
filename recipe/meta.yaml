@@ -1,4 +1,4 @@
-{% set version = "0.51.1" %}
+{% set version = "0.52.0" %}
 
 package:
   name: vscode-go-debug-adapter
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/golang/vscode-go/archive/v{{ version }}.tar.gz
-  sha256: 3cd32b83976e08187e687e7cd39b7daf926988c96939c7ce0b205a4d4a3ccfd8
+  sha256: c6564de22e3127fc2965b64994a5f6b1c0966a1b5d439ff09f962db4c8cb62b9
 
 build:
   noarch: generic
